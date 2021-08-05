@@ -1,0 +1,7 @@
+#Serão ignorados os arquivos compilados e compactados e o arquivo de teste
+
+*.exe
+*.out
+*.rar
+*.zip
+teste.c
