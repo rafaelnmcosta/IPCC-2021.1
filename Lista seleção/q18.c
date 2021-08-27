@@ -16,10 +16,17 @@ int main(){
     if(maior < b) maior = b;
     if(maior < c) maior = c;
 
-    if(a>menor && a<maior) medio = a;
-    if(b>menor && b<maior) medio = b;
-    if(c>menor && c<maior) medio = c;
-
+    //if que confere se há um numero repetido pra definir o numero medio
+    if(a==b||b==c||a==c){
+        if(a==b || a==c) medio = a;
+        if(b==a || b==c) medio = b;
+    }
+    else{
+        if(a>menor && a<maior) medio = a;
+        if(b>menor && b<maior) medio = b;
+        if(c>menor && c<maior) medio = c;
+    }
+    
     switch (n1){
         case 'A':
             printf("%d ", menor);
