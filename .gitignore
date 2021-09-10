@@ -1,6 +1,16 @@
-#Serão ignorados os arquivos compilados, compactados, arquivos de teste e a pasta do vscode
+#Serão ignorados os arquivos:
+# 
+# compilados
+# compactados
+# de teste
+# pasta do vscode
+# de input e output
+
 
 /.vscode
+
+input
+output
 
 *.exe
 *.out
