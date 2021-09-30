@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * @brief Funcao que retorna o valor do fatorial de n
+ * 
+ * @param n um numero inteiro positivo
+ * @return o fatorial de n
+ */
 unsigned long int fat(unsigned int n);
 
 int main(){
